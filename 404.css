@@ -1,0 +1,82 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0%;
+	width: 100%;
+	background-image: url(Many_Suitcase_496498.jpg);
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	background-color: rgb(24, 24, 24);
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: gainsboro;
+	font-size: 15px;
+}
+
+main {
+	display: flex;
+    justify-content: center;
+	margin: 20vh;
+	flex: 1 0 auto;
+}
+
+.text {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	width: 70%;
+	border-radius: 2px;
+	background-color: gainsboro;
+	opacity: 0.9;
+}
+
+.soustext {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(116, 116, 116);
+}
+
+footer {
+	background-color: rgb(24, 24, 24);
+	color: rgb(24, 24, 24);
+	flex-shrink: 0;
+}
+
+footer ul {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 20px;
+}
